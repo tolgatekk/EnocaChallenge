@@ -1,0 +1,32 @@
+server:
+  port: 9090
+
+spring:
+  cloud:
+    config:
+      enabled: false
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: user
+    password: user
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/EnocaAuthDB
+    username: postgres
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: create
+authserviceconfig:
+  secrets:
+    secret-key: ${SECRETKEY}
+    issuer: ${ISSUER}
+rabbitmq:
+  direct-exchange: directExchange
+  register-queue: registerQueue
+  register-bindingKey: registerBindingKey
+  customer-queue: customerQueue
+  customer-bindingKey: customerBindingKey
+  cart-queue: cartQueue
+  cart-bindingKey: cartBindingKey

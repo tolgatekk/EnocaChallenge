@@ -1,0 +1,5 @@
+rootProject.name = 'EnocaChallenge'
+include 'auth-microservice'
+include 'product-microservice'
+include 'customer-microservice'
+
