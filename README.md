@@ -48,9 +48,9 @@ Auth-microservice'nin application sınıfına ortam değişkeni olarak eklenmeli
 - EnocaCustomerDB
 - EnocaProductDB
 ##
-![auth](https://github.com/tolgatekk/EnocaE-ticaret/assets/114102074/5d114e90-eb8f-404b-9c31-3a555de00566)
+![auth](https://github.com/tolgatekk/EnocaChallenge/assets/114102074/ae9fa6eb-7f34-4ccb-9c4d-d20b65cf64fd)
 ##
-![customer](https://github.com/tolgatekk/EnocaE-ticaret/assets/114102074/7fc6396a-6e4a-47bd-a050-4d7bc4c7eabf)
+![customer](https://github.com/tolgatekk/EnocaChallenge/assets/114102074/dd08f8be-0f3e-4da8-b618-5be47870d49d)
 ##
 ![product](https://github.com/tolgatekk/EnocaChallenge/assets/114102074/596552f6-e20b-4405-b702-86b45489cc96)
 
